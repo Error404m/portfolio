@@ -1,0 +1,182 @@
+/* -------------------------------Product-section--------------------------------- */
+
+#product-div {
+    background: #f3f6ff;
+    padding: 3rem 0 3rem;
+  }
+  
+  .section_heading h3 {
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  
+  .grayname {
+    color: #50515e;
+    font-weight: bold;
+  }
+  
+  .section_heading p {
+    color: #50515e;
+    font-weight: 500 !important;
+  }
+  
+  .p-content {
+    margin-top: 2rem;
+  }
+  
+  .about-text h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+  
+  .about-text h6 {
+    color: #fc864c;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+  }
+  
+  .about-text p mark {
+    font-weight: 600;
+    color: #3a3973;
+  }
+  
+  .about-text .btn-bar {
+    padding-top: 1rem;
+  }
+  
+  .about-text .btn-bar a {
+    min-width: 150px;
+    text-align: center;
+    margin-right: 0.8rem;
+  }
+  
+  .about-img {
+    box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 2%;
+  }
+  
+  .about-img img {
+    width: 450px;
+    height: 350px;
+  }
+  
+  .px-btn.theme {
+    background: #99B951;
+    color: #ffffff;
+    border: 2px solid #99B951;
+  }
+  
+  .px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+  
+  .px-btn.theme-t {
+    background: transparent;
+    border: 2px solid #99B951;
+    color: #99B951;
+  }
+  
+  /* ---------------------------Responsive Product-section---------------------------- */
+  
+  @media (max-width: 1199.5px) {
+    .about-img img {
+      width: 370px;
+      height: 350px;
+    }
+  }
+  
+  @media (max-width: 991.5px) {
+    /* .p-content .row div .about-text {
+      background-color: #fff;
+      box-shadow: 10px 15px 14px 0 rgba(0, 0, 0, 0.06);
+    } */
+  
+    .about-text {
+      padding: 1rem 1rem 0;
+      text-align: center;
+    }
+  
+    .about-img {
+      background: transparent;
+      box-shadow: 10px 15px 14px 0 rgba(0, 0, 0, 0.06);
+      padding: 0rem;
+    }
+  
+    .about-img img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .about-text h4 {
+      font-size: 1.5rem;
+    }
+  
+    .about-text h6 {
+      font-size: 1rem;
+    }
+  
+    .about-text p {
+      text-align: justify;
+    }
+  }
+  
+  @media (max-width: 335px) {
+    .services-section .section-title h3 {
+      font-size: 22px;
+    }
+  }
+  
+  /* ----------------------------------------Brochure Download Button------------------------------------------- */
+  
+  #brochure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  #brochure a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    background: #FDC830;
+    background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
+    background: linear-gradient(to bottom right, #F37335, #FDC830);
+    border-radius: 8px;
+  }
+  
+  #brochure a:hover {
+    box-shadow: 0px 0px 15px 0px rgb(123, 132, 153);
+    transition: 0.2s;
+  }
+  
+  @media (max-width: 500px) {
+    #brochure a {
+      font-size: 0.9rem;
+    }
+  }
